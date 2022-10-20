@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
     background-color: #f1f1f1;
@@ -11,7 +12,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color:#222CF2;
 }
 .main {
     display: flex;
@@ -20,19 +21,19 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #044BD9;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #044BD9;
     min-height: 150px;
 }
 .content {
-    background-color: white;
+    background-color: #0C87F2;
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #044BD9;
     min-height: 150px;
 }
