@@ -3,10 +3,8 @@
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
 @font-face {
-    font-family: 'Android';
-    src: url('../fontes/idroid.otf') format('opentype');
-    font-weight:normal;
-    font-family: 'Bebas Neue', cursiva;   
+    font-family: 'Bebas Neue', cursiva;
+    font-weight:normal;   
 }
 
 :root {
@@ -15,7 +13,7 @@
     --cor2: #3ddc84;
     --cor3: #2fa866;
     --cor4: #095589;
-    --cor5: #dbecfd;
+    --cor5: #bd3622;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
 }
@@ -24,10 +22,6 @@
   margin: 0px;
   padding: 0px;
  }
-
-body {
-    margin: 0;
-}
 
 body {
     background-color: var(--cor0);
@@ -68,9 +62,9 @@ body {
 }
 
 .content h1, h2 {
-    background-color: var(--cor1) ;
+    color: var(--cor1) ;
     text-align: center;
-    font-feature-settings: var(--fonte-destaque);
+    font-family: var(--fonte-destaque);
 
 }
 
@@ -82,7 +76,20 @@ table thead {
 table tr:nth-child(even) {
    background-color: var(--cor4);
 }
-  
+.enviar {
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
+.limpar {
+    background-color: var(--cor5);
+    color: var(--cor0);
+}
+
+.dados {
+    margin-bottom: 5px;
+}
+
 
 .footer {
     background-color: var(--cor1);
