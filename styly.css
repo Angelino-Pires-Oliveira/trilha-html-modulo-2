@@ -8,7 +8,7 @@
 }
 
 :root {
-    --cor0: #ebe5c5;
+    --cor0: #c1cfe2;
     --cor1: #40c8f9;
     --cor2: #3ddc84;
     --cor3: #2fa866;
@@ -69,6 +69,10 @@ body {
 
 }
 
+table{
+    border-collapse: collapse;
+    width: 900px;
+}
 
 table thead {
     background-color: var(--cor4);
