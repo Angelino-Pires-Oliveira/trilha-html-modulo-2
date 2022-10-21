@@ -62,12 +62,13 @@ body {
     padding: 20px;
 }
 
-.content h1, h2 {
+.content h1, h2, section{
     color: var(--cor1) ;
     text-align: center;
     font-family: var(--fonte-destaque);
 
 }
+
 
 table thead {
     background-color: var(--cor4);
@@ -76,6 +77,7 @@ table thead {
 
 table tr:nth-child(even) {
    background-color: var(--cor4);
+   color: var(--cor0)
 }
 .enviar {
     background-color: var(--cor3);
@@ -95,4 +97,5 @@ table tr:nth-child(even) {
 .footer {
     background-color: var(--cor1);
     min-height: 150px;
+    font-family: var(--fonte-padrao);
 }
