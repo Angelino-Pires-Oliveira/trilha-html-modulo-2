@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="styly.css">
+
+    <style>
+        .enviar {
+            background-color: green;
+            color: white;
+        }
+
+        .limpar {
+            background-color: red;
+            color: white;
+        }
+
+        .dados {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" target="_blank">Página Principal</a></li>
+                <li><a href="clinica.html" target="_blank">Sobre a clínica</a></li>
+                <li><a href="horario.html" target="_blank">Horário de atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./imagens/contato.jpeg" style="width: 100%;" alt="">
+            </div>
+
+            <div class="content">
+                <h1>Entre em contato!</h1>
+                <p>&#9742; <b>Telefones:</b> (15) 988037535 <small>(Celular/Whatsapp)</small> </p>
+                <p><b>Endereço:</b> Joaquim José Batista Ferreira, 100 Cep. 18055-271. Sorocaba, São Paulo - SP</p>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7038513472858!2d-47.49043608440784!3d-23.507174165479945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58ad89e19ed0d%3A0xa76cc4449cb830a3!2sR.%20Dr.%20Joaquim%20Jos%C3%A9%20Batista%20Ferreira%2C%20100%20-%20Jardim%20Americano%2C%20Sorocaba%20-%20SP%2C%2018055-271!5e0!3m2!1spt-BR!2sbr!4v1666308067200!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <form clas="formulario" action="#" method="post">
+                    <fieldset>
+                        <legend>Envie uma mensagem preenchendo os dados abaixo:</legend>
+                        <div class="dados">
+                            <label>Nome: </label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div class="dados">
+                            <label>E-mail: </label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="dados">
+                            <label>Assunto: </label>
+                            <input type="text" id="assunto">
+                        </div>
+                        <div class="dados">
+                            <label>Mensagem: </label>
+                            <textarea id="message" rows="3" cols="30" style="resize: none;"></textarea>
+                        </div>
+                        <button class="enviar" type="submit">Enviar</button>
+                        <button class="limpar" type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+
+            </div>
+
+            <div class="footer">
+                <p>&#9742; <b>Telefone:</b> (15) 98803-3575 </p>
+                <p><b>Horário de atendimento:</b> segunda à sexta-feira, das 8h às 22h. <br>
+                    <small><i></i>Para sábados e feriados, consultar a página Horário de Atendimento.</small></i></p>
+                <p><b>Endereço:</b> Joaquim José Batista Ferreira, 100 Cep. 18055-271.</p>
+                <p><strong>Sorocaba, São Paulo - SP</strong></p>
+    </div>
+</body>
+
+</html>

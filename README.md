@@ -1,5 +1,12 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+</p>
+<h1 align="center"> Criando seu Primeiro Site Completo com HTML </h1>
+
+<h4 align="center"> 
+  <img src="https://img.shields.io/badge/Status:-Conclu%C3%ADdo-green">
+</h4>
+
+
+## 💻 Objetivo
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
 - Formulários
@@ -9,7 +16,10 @@ Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que v
 
 Além de outros recursos falados nas aulas!
 
-## Instruções
+---
+
+## 📌 Instruções
+
 1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
 2. Este site deve conter o seguinte menu de navegação:
     - Página Principal
@@ -19,6 +29,8 @@ Além de outros recursos falados nas aulas!
 3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
 
 Abaixo como cada página deve ser criada e estruturada.
+
+---
 
 ### Estrutura das páginas
 
@@ -72,3 +84,20 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
 Bora pra cima!
+
+---
+
+Este desafio foi produzido durante a realização do bootcamp NTT DATA Diversidade em Tech (DIO).
+
+---
+
+## 🛠 Tecnologias
+
+Na construção do projeto foi utilizado:
+
+-   HTML
+-   CSS
+
+---
+
+
