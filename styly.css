@@ -31,6 +31,14 @@ body {
     justify-content: center;
 }
 
+p {
+   line-height: 1.5rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -68,10 +76,25 @@ body {
     font-family: var(--fonte-destaque);
 
 }
+.grupo-lista {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.grupo-lista li, .grupo-lista a{
+    color: var(--cor1);
+
+}
+
+.grupo-lista img{
+    width: 40%;
+}
 
 table{
     border-collapse: collapse;
     width: 900px;
+    border: 1px solid black;
 }
 
 table thead {
@@ -82,6 +105,9 @@ table thead {
 table tr:nth-child(even) {
    background-color: var(--cor4);
    color: var(--cor0)
+}
+th, td {
+    padding: 15px;
 }
 .enviar {
     background-color: var(--cor3);
